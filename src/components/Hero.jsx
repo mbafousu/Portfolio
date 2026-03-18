@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
 
-      <h1>Suzy Mbafou</h1>
+      <h1>Suzy Carol Mbafou Nguefack</h1>
 
       <h2>Junior Full-Stack Software Engineer</h2>
 
