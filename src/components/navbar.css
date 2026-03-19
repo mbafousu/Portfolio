@@ -24,7 +24,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;
+  border: 2px solid #6366f1;
+}
+
 
 .logo-text {
   font-size: 0.95rem;
