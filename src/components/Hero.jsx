@@ -1,22 +1,21 @@
+import "./hero.css";
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
-    <section className="hero">
+    <main className="hero" id="home">
+      <div className="hero-content">
+        <h1>Hey, I'm Suzy Carol Mbafou Nguefack</h1>
 
-      <h1>Suzy Carol Mbafou Nguefack</h1>
+        <p>
+          A Full-Stack Software Engineer with a healthcare background,
+          building applications that improve patient care and clinical workflows.
+        </p>
 
-      <h2>Junior Full-Stack Software Engineer</h2>
-
-      <p>
-        MERN stack developer with a healthcare background as a Patient Care Technician.
-        I build applications that improve clinical workflows and patient data management.
-      </p>
-
-      <div className="hero-buttons">
-        <a href="#projects">View Projects</a>
-        <a href="https://github.com/mbafousu">GitHub</a>
-        <a href="/resume.pdf">Resume</a>
+        <Link to="/projects" className="hero-btn">
+          PROJECTS
+        </Link>
       </div>
-
-    </section>
+    </main>
   );
 }

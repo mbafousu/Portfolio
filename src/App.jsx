@@ -1,25 +1,28 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Skills from "./pages/Skills";
 
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      
+    <div className="page">
+      <div className="portfolio-card">
+        <Navbar />
+        
 
-      </>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
-
-export default App;

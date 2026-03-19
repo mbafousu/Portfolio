@@ -1,32 +1,45 @@
-body {
-  font-family: Arial;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
   margin: 0;
-  background: #f4f4f4;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section {
-  padding: 60px;
+html {
+  scroll-behavior: smooth;
 }
 
-.hero {
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #111827;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center; /* centers EVERYTHING */
+  background-color: #0f172a;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers horizontally */
+  justify-content: center;
   text-align: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: #222;
-  color: white;
-}
-
-.nav-links a {
-  margin-left: 20px;
-  color: white;
-}
-
-.project {
-  background: white;
-  padding: 20px;
-  margin-top: 20px;
+.portfolio-card {
+  position: relative;
+  width: 95%;
+  max-width: 1350px;
+  min-height: 760px;
+  background: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
 }

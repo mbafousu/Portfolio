@@ -1,8 +1,7 @@
 export default function Skills() {
   return (
-    <section id="skills">
-
-      <h2>Technical Skills</h2>
+    <div className="skills">
+      <h1>Technical Skills</h1>
 
       <ul>
         <li>JavaScript</li>
@@ -17,7 +16,6 @@ export default function Skills() {
         <li>Git & GitHub</li>
         <li>Postman</li>
       </ul>
-
-    </section>
+    </div>
   );
 }

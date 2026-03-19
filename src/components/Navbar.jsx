@@ -1,14 +1,22 @@
+import { Link } from "react-router-dom";
+import "./navbar.css";
+
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      <h2>Suzy Carol Nguefack Mbafou</h2>
-
-      <div className="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <header className="navbar">
+      <div className="logo-box">
+        <div className="logo-circle">S</div>
+        <span className="logo-text">SUZY CAROL MBAFOU NGUEFACK</span>
       </div>
-    </nav>
+
+      <nav className="nav-links">
+        <Link to="/">HOME</Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to="/projects">PROJECTS</Link>
+      <Link to="/skills">SKILLS</Link>
+     <Link to="/contact">CONTACTS</Link>
+       
+      </nav>
+    </header>
   );
 }
