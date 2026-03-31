@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <main className="hero" id="home">
       <div className="hero-content">
-        <h1>Hey, I'm Suzy Carol Mbafou Nguefack</h1>
+        <h1>Hey, I'm Carol Mbafou</h1>
 
         <p>
           A Full-Stack Software Engineer with a healthcare background,
-          building applications that improve patient care and clinical workflows.
+          building and deploying webapplications that improve patient care and clinical workflows.
         </p>
 
         <Link to="/projects" className="hero-btn">

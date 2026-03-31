@@ -12,7 +12,7 @@ export default function About() {
       </p>
 
       <p>
-        Today I build web applications using the MERN stack with a focus on
+        Today I build and deploy web applications using the MERN stack with a focus on
         healthcare technology, data management, and user-friendly interfaces.
       </p>
 
