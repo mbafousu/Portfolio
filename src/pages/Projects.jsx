@@ -4,7 +4,7 @@ export default function Projects() {
       <h2>Projects</h2>
 
       <div>
-        <h3>ClinicFlow</h3>
+        <h3>PROJECT 1 -ClinicFlow</h3>
 
         <img
           src="/screenshots/dashboard.png"
@@ -47,6 +47,40 @@ export default function Projects() {
             rel="noreferrer"
             className="live-btn"
       
+          >
+            Live Demo
+          </a>
+        </div>
+      </div>
+      {/* 🎬 PROJECT 2 — MOVIE FINDER */}
+      <div className="project-card">
+        <h3>PROJECT 2 -Movie Finder</h3>
+
+        <img
+          src="/screenshots/movie.png"
+          alt="Movie Finder"
+          className="main-image"
+        />
+
+        <p>
+          Movie search application that allows users to find movies,
+          view details, and explore trending content.
+        </p>
+
+        <p>Tech: React, API Integration, CSS</p>
+
+        <div className="project-links">
+        
+          <a
+            href="https://github.com/mbafousu/Movie_Finder.git"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          
+           <a
+            href="https://movie-finder-app-m6no.onrender.com"
+            target="_blank"
           >
             Live Demo
           </a>
