@@ -52,7 +52,7 @@ export default function Projects() {
           </a>
         </div>
       </div>
-      {/* 🎬 PROJECT 2 — MOVIE FINDER */}
+      
       <div className="project-card">
         <h3>PROJECT 2 -Movie Finder</h3>
 
@@ -77,7 +77,7 @@ export default function Projects() {
           >
             GitHub
           </a>
-          
+
            <a
             href="https://movie-finder-app-m6no.onrender.com"
             target="_blank"
