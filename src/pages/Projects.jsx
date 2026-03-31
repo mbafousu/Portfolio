@@ -60,7 +60,8 @@ export default function Projects() {
           src="/screenshots/movie.png"
           alt="Movie Finder"
           className="main-image"
-        />
+         />
+        
 
         <p>
           Movie search application that allows users to find movies,
@@ -74,6 +75,7 @@ export default function Projects() {
           <a
             href="https://github.com/mbafousu/Movie_Finder.git"
             target="_blank"
+            className="github-btn"
           >
             GitHub
           </a>
@@ -81,6 +83,7 @@ export default function Projects() {
            <a
             href="https://movie-finder-app-m6no.onrender.com"
             target="_blank"
+            className="live-btn"
           >
             Live Demo
           </a>
