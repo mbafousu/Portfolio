@@ -25,6 +25,12 @@ export default function Projects() {
 
         <p>Tech: React, Node.js, Express, MongoDB, JWT</p>
 
+<p className="demo-credentials">
+  Demo Login: <br />
+  Email: demo@clinicflow.com <br />
+  Password: Password123!
+</p>
+
         <div style={{ display: "flex", gap: "12px" }}>
           <a
             href="https://github.com/mbafousu/ClinicFlow"
