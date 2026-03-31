@@ -30,6 +30,7 @@ export default function Projects() {
             href="https://github.com/mbafousu/ClinicFlow"
             target="_blank"
             rel="noreferrer"
+             className="github-btn"
           >
             GitHub
           </a>
@@ -38,6 +39,8 @@ export default function Projects() {
             href="https://clinicflow-frontend-app.onrender.com"
             target="_blank"
             rel="noreferrer"
+            className="live-btn"
+      
           >
             Live Demo
           </a>
