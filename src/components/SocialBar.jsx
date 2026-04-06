@@ -9,6 +9,7 @@ export default function SocialBar() {
         href="https://www.linkedin.com/in/suzy-nguefack"
         target="_blank"
         rel="noreferrer"
+        aria-label="LinkedIn"
       >
         <FaLinkedinIn />
       </a>
@@ -17,6 +18,7 @@ export default function SocialBar() {
         href="https://github.com/mbafousu"
         target="_blank"
         rel="noreferrer"
+        aria-label="GitHub"
       >
         <FaGithub />
       </a>
