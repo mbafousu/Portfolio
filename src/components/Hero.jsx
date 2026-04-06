@@ -1,21 +1,41 @@
-import "./hero.css";
 import { Link } from "react-router-dom";
+import "../styles/home.css";
 
 export default function Hero() {
   return (
-    <main className="hero" id="home">
-      <div className="hero-content">
-        <h1>Hey, I'm Carol Mbafou</h1>
+    <section className="hero">
+      <div className="hero-left">
+        <p className="hero-tag">Full-Stack Software Engineer</p>
 
-        <p>
-          A Full-Stack Software Engineer with a healthcare background,
-          building and deploying webapplications that improve patient care and clinical workflows.
+        <h1>
+          Hi, I’m <span>Carol Mbafou</span>
+        </h1>
+
+        <p className="hero-description">
+          I build clean, scalable web applications with the MERN stack,
+          with a strong focus on backend systems, APIs, and healthcare technology.
         </p>
 
-        <Link to="/projects" className="hero-btn">
-          PROJECTS
-        </Link>
+        <div className="hero-buttons">
+          <Link to="/projects" className="btn primary">
+            View Projects
+          </Link>
+
+          <Link to="/contact" className="btn secondary">
+            Contact Me
+          </Link>
+        </div>
       </div>
-    </main>
+
+      <div className="hero-right">
+        <div className="hero-card">
+          <h3>What I Build</h3>
+          <p>Full-stack applications</p>
+          <p>RESTful APIs</p>
+          <p>Authentication systems</p>
+          <p>Healthcare solutions</p>
+        </div>
+      </div>
+    </section>
   );
 }

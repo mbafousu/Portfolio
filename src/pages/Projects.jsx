@@ -76,7 +76,7 @@ export default function Projects() {
 
           <div className="project-links">
             <a
-              href="https://github.com/YOUR_USERNAME/clinic-scheduler-api"
+              href="https://github.com/mbafousu/clinic-scheduler-api"
               target="_blank"
               rel="noreferrer"
               className="btn primary"
