@@ -6,7 +6,7 @@ export default function Contact() {
 
       <p>Email: carolngue06@gmail.com</p>
 
-      <p>LinkedIn: www.linkedin.com/in/suzy-nguefack </p>
+      <p>LinkedIn: www.linkedin.com/in/carol-mbafou</p>
 
       <p>GitHub: github.com/mbafousu</p>
 
