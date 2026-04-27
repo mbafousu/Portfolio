@@ -1,0 +1,25 @@
+.about-section {
+  background: #f9fafb;
+  padding: 80px 20px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.about-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.about-container p {
+  color: #374151;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}

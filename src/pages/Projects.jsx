@@ -3,7 +3,7 @@ import "../styles/projects.css";
 export default function Projects() {
   return (
     <section className="projects-page">
-      <h2>My Projects</h2>
+      <h2>Featured Projects</h2>
 
       <div className="projects-grid">
 
@@ -15,11 +15,19 @@ export default function Projects() {
             className="project-image"
           />
 
-          <h3>ClinicFlow</h3>
+          <h3>ClinicFlow – Healthcare Management System</h3>
 
           <p>
-            Full-stack healthcare management application for managing patients,
-            visits, appointments, and medication lookup.
+            Full-stack MERN application designed to manage patient records,
+            appointments, and clinical workflows with secure authentication
+            and scalable backend architecture.
+          </p>
+
+          <p className="project-highlights">
+            • Developed RESTful APIs using Node.js and Express for patient and appointment management <br />
+            • Implemented JWT-based authentication and authorization for secure access control <br />
+            • Integrated third-party FDA API for real-time medication data retrieval <br />
+            • Structured backend using MVC architecture for maintainability and scalability
           </p>
 
           <div className="tech-stack">
@@ -28,6 +36,7 @@ export default function Projects() {
             <span>Express</span>
             <span>MongoDB</span>
             <span>JWT</span>
+            <span>REST API</span>
           </div>
 
           <p className="demo-credentials">
@@ -59,11 +68,18 @@ export default function Projects() {
 
         {/* 🥈 Clinic Scheduler API */}
         <div className="project-card">
-          <h3>Clinic Scheduler API</h3>
+          <h3>Clinic Scheduler API – Backend System</h3>
 
           <p>
-            Backend RESTful API built with Node.js, Express, and MongoDB to manage
-            clinic scheduling, patients, and appointments.
+            Backend RESTful API built to manage clinic scheduling, patient data,
+            and appointment workflows using Node.js, Express, and MongoDB.
+          </p>
+
+          <p className="project-highlights">
+            • Designed and implemented RESTful API endpoints for CRUD operations <br />
+            • Modeled and managed data using MongoDB and Mongoose <br />
+            • Structured backend using routes, controllers, and middleware <br />
+            • Implemented validation, error handling, and tested endpoints using Postman
           </p>
 
           <div className="tech-stack">
@@ -94,15 +110,23 @@ export default function Projects() {
             className="project-image"
           />
 
-          <h3>Movie Finder</h3>
+          <h3>Movie Finder – Web Application</h3>
 
           <p>
-            Movie search application that allows users to find movies, view
-            details, and explore trending content.
+            Responsive React application that allows users to search for movies,
+            view details, and explore trending content using external APIs.
+          </p>
+
+          <p className="project-highlights">
+            • Built dynamic search functionality with real-time API data fetching <br />
+            • Integrated external movie API for asynchronous data retrieval <br />
+            • Implemented loading states and error handling for better UX <br />
+            • Designed responsive UI using reusable React components
           </p>
 
           <div className="tech-stack">
             <span>React</span>
+            <span>JavaScript</span>
             <span>API Integration</span>
             <span>CSS</span>
           </div>
