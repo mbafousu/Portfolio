@@ -33,10 +33,12 @@ export default function Hero() {
       <div className="hero-right">
         <div className="hero-card">
           <h3>Core Expertise</h3>
+          <p>Troubleshooting & Issue Resolution</p>
+          <p>Technical Support & User Assistance</p>
           <p>Backend Development (Node.js, Express)</p>
           <p>RESTful APIs Design & Integration</p>
-          <p>Authentication & Authorization (JWT)</p>
-          <p>Full-Stack MERN Applications</p>
+          <p>System Debugging & Error Handling</p>
+          <p>Data Accuracy & Workflow Management</p>
         </div>
       </div>
     </section>

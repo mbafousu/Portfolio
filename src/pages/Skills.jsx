@@ -13,6 +13,8 @@ export default function Skills() {
             <li>RESTful APIs</li>
             <li>JWT Authentication & Authorization</li>
             <li>Middleware</li>
+            <li>Error Handling</li>
+            <li>API Debugging</li>
           </ul>
         </div>
 
@@ -31,6 +33,19 @@ export default function Skills() {
           <ul>
             <li>MongoDB</li>
             <li>Mongoose</li>
+            <li>Data Validation</li>
+          </ul>
+        </div>
+
+        
+        <div className="skill-group">
+          <h3>Techinical Support / Systems</h3>
+          <ul>
+            <li>Troubleshooting</li>
+            <li>Technical Support</li>
+            <li>System Debugging</li>
+            <li>Issue Resolution</li>
+            <li>User Support</li>
           </ul>
         </div>
 
@@ -40,6 +55,10 @@ export default function Skills() {
             <li>Git & GitHub</li>
             <li>Postman</li>
             <li>Render</li>
+            <li>API Testing</li>
+            <li>Debugging Tools</li>
+            <li>Basic Networking Concepts</li>
+
           </ul>
         </div>
 
