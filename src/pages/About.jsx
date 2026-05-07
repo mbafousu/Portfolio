@@ -7,24 +7,18 @@ export default function About() {
         <h2>About Me</h2>
 
         <p>
-          I am a Software Engineer with a strong focus on backend development,
-          specializing in Node.js, Express, and MongoDB. I have experience
-          building full-stack MERN applications, designing RESTful APIs,
-          and implementing secure authentication systems.
+        I am a technical professional with a background in healthcare and software engineering,
+         focused on building and troubleshooting reliable systems.
         </p>
 
         <p>
-          Before transitioning into software engineering, I worked as a Patient
-          Care Technician in a hospital environment, where I gained experience
-          with clinical workflows, data management, and working in fast-paced,
-          high-pressure settings.
+         Through my software engineering training, I have developed backend applications using Node.js, Express, and MongoDB,
+          while working extensively with REST APIs, authentication systems, and debugging real-world application issues.
         </p>
 
         <p>
-          I am passionate about building scalable, maintainable applications that
-          solve real-world problems, particularly in healthcare technology and
-          data-driven systems. I am currently seeking opportunities as a Software
-          Engineer where I can contribute, learn, and grow.
+          My healthcare experience has strengthened my attention to detail, communication, and ability to support users in fast-paced environments.
+           I enjoy solving technical problems, improving workflows, and building systems that are reliable and user-focused.
         </p>
       </div>
     </section>
