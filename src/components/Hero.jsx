@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-left">
-        <p className="hero-tag">Software Engineer | Backend Focus (Node.js, Express, MongoDB)
+        <p className="hero-tag">Troubleshooting • Backend APIs • System Support
           </p>
 
 
@@ -14,9 +14,11 @@ export default function Hero() {
         </h1>
 
         <p className="hero-description">
-            Backend-focused Software Engineer specializing in Node.js, Express, and MongoDB.
-            I build scalable RESTful APIs, implement secure authentication systems, and develop
-            full-stack MERN applications that solve real-world problems.
+       I build and troubleshoot backend systems and applications, focusing on reliability, data accuracy, and
+        real-world workflows.
+
+       Skilled in Node.js, Express, MongoDB, and REST APIs, I enjoy solving technical problems, debugging 
+       systems, and supporting reliable application performance.
         </p>
 
         <div className="hero-buttons">
