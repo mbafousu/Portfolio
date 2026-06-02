@@ -10,7 +10,7 @@ export default function Navbar() {
 
         <div className="logo-info">
           <span className="logo-name">CAROL MBAFOU</span>
-          <span className="logo-role">Technical Support & Backend Developer</span>
+          <span className="logo-role">Linux System Administrator | AWS Cloud | Full-Stack Developer | Healthcare IT</span>
         </div>
       </div>
 

@@ -7,19 +7,17 @@ export default function About() {
         <h2>About Me</h2>
 
         <p>
-        I am a technical professional with a background in healthcare and software engineering,
-         focused on building and troubleshooting reliable systems.
+       I am an IT professional with a background in healthcare, Linux administration,
+       cloud infrastructure, and software development. My experience includes Linux system administration,
+       AWS cloud services, automation using Bash, Ansible, and Terraform, and full-stack application development using the MERN stack.
         </p>
 
         <p>
-         Through my software engineering training, I have developed backend applications using Node.js, Express, and MongoDB,
-          while working extensively with REST APIs, authentication systems, and debugging real-world application issues.
+        I enjoy solving technical problems, automating repetitive tasks, and building reliable systems.
+        My healthcare experience has strengthened my attention to detail,
+        communication, and ability to work in fast-paced environments while supporting critical operations.
         </p>
 
-        <p>
-          My healthcare experience has strengthened my attention to detail, communication, and ability to support users in fast-paced environments.
-           I enjoy solving technical problems, improving workflows, and building systems that are reliable and user-focused.
-        </p>
       </div>
     </section>
   );

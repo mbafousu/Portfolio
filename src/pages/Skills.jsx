@@ -6,58 +6,58 @@ export default function Skills() {
       <div className="skills-container">
 
         <div className="skill-group">
-          <h3>Backend</h3>
+          <h3>Linux</h3>
           <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>RESTful APIs</li>
-            <li>JWT Authentication & Authorization</li>
-            <li>Middleware</li>
-            <li>Error Handling</li>
-            <li>API Debugging</li>
+            <li>Ubuntu</li>
+            <li>CentOS</li>
+            <li>RHEL</li>
+            <li>Bash Scripting</li>
+            <li>SSH</li>
+            <li>Systemd</li>
+            <li>Cron</li>
           </ul>
         </div>
 
         <div className="skill-group">
-          <h3>Frontend</h3>
+          <h3>Cloud</h3>
           <ul>
-            <li>React</li>
-            <li>React Router</li>
-            <li>JavaScript (ES6+)</li>
-            <li>HTML & CSS</li>
+            <li>AWS EC2</li>
+            <li>S3</li>
+            <li>IAM</li>
+            <li>CloudWatch</li>
+            <li>Route53</li>
+            <li>VPC</li>
+          
           </ul>
         </div>
 
         <div className="skill-group">
-          <h3>Database</h3>
+          <h3>Automation</h3>
           <ul>
-            <li>MongoDB</li>
-            <li>Mongoose</li>
-            <li>Data Validation</li>
+            <li>Terraform</li>
+            <li>Ansible</li>
+            <li>Bash Scripting</li>
           </ul>
         </div>
 
         
         <div className="skill-group">
-          <h3>Techinical Support / Systems</h3>
+          <h3>Development</h3>
           <ul>
-            <li>Troubleshooting</li>
-            <li>Technical Support</li>
-            <li>System Debugging</li>
-            <li>Issue Resolution</li>
-            <li>User Support</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
           </ul>
         </div>
 
         <div className="skill-group">
-          <h3>Tools & Technologies</h3>
+          <h3>Healthcare</h3>
           <ul>
-            <li>Git & GitHub</li>
-            <li>Postman</li>
-            <li>Render</li>
-            <li>API Testing</li>
-            <li>Debugging Tools</li>
-            <li>Basic Networking Concepts</li>
+            <li>Epic EMR</li>
+            <li>Clinical Workflows</li>
+          
 
           </ul>
         </div>

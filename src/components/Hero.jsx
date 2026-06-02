@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-left">
-        <p className="hero-tag">Troubleshooting • Backend APIs • System Support
+        <p className="hero-tag">Linux Administration • Cloud Infrastructure • Automation 
           </p>
 
 
@@ -14,11 +14,8 @@ export default function Hero() {
         </h1>
 
         <p className="hero-description">
-       I build and troubleshoot backend systems and applications, focusing on reliability, data accuracy, and
-        real-world workflows.
-
-       Skilled in Node.js, Express, MongoDB, and REST APIs, I enjoy solving technical problems, debugging 
-       systems, and supporting reliable application performance.
+       IT professional with experience in Linux administration, AWS cloud infrastructure, automation, and software development.
+       Passionate about building, automating, and supporting reliable systems.
         </p>
 
         <div className="hero-buttons">
@@ -35,12 +32,16 @@ export default function Hero() {
       <div className="hero-right">
         <div className="hero-card">
           <h3>Core Expertise</h3>
-          <p>Troubleshooting & Issue Resolution</p>
-          <p>Technical Support & User Assistance</p>
-          <p>Backend Development (Node.js, Express)</p>
-          <p>RESTful APIs Design & Integration</p>
-          <p>System Debugging & Error Handling</p>
-          <p>Data Accuracy & Workflow Management</p>
+          <p>Linux System Administration</p>
+          <p>AWS Cloud Infrastructure</p>
+          <p>Terraform</p>
+          <p>Ansible</p>
+          <p>Bash Scripting</p>
+          <p>Infrastructure Automation</p>
+          <p>System Monitoring</p>
+          <p>Troubleshooting</p>
+          <p>Full-Stack Development</p>
+          <p>Healthcare IT</p>
         </div>
       </div>
     </section>

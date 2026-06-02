@@ -15,40 +15,36 @@ export default function Projects() {
             className="project-image"
           />
 
-          <h3>ClinicFlow – Healthcare Management System</h3>
+          <h3>AWS Multi-Tier Infrastructure Automation with Terraform</h3>
 
           <p>
-           Full-stack MERN healthcare application designed to support patient workflows, appointments,
-            and clinical data management with a focus on system reliability, troubleshooting, and secure backend architecture.
+          Designed and deployed a scalable AWS infrastructure using Terraform.The environment includes
+          networking, compute, storage, monitoring, and security services managed through Infrastructure as Code (IaC).
           </p>
 
           <p className="project-highlights">
-            • Built and maintained RESTful APIs using Node.js and Express for patient and appointment workflows <br />
-            • Implemented JWT authentication and protected routes for secure system access <br />
-            • Troubleshot authentication issues, API failures, and data inconsistencies across the application <br />
-            • Integrated external FDA API for real-time medication lookup and asynchronous data handling <br />
-            • Structured backend architecture using MVC pattern to improve scalability and maintainability 
+            • Provisioned AWS infrastructure using Terraform. <br />
+            • Configured VPC, EC2, Load Balancer, and Auto Scaling. <br />
+            • Implemented monitoring using CloudWatch and SNS. <br />
+            • Managed secure access with IAM roles and policies. <br />
+            • Automated cloud deployments using Infrastructure as Code
     
             
 
           </p>
 
-          <div className="tech-stack">
-            <span>Troubleshooting</span>
-            <span>JWT</span>
-            <span>API Integration</span>
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>MongoDB</span>
-            <span>REST API</span>
+          <div className="Technologies">
+            <span>AWS</span>
+            <span>Terraform</span>
+            <span>EC2</span>
+            <span>VPC</span>
+            <span>IAM</span>
+            <span>CloudWatch</span>
+            <span>SNS</span>
+            <span>RDS</span>
           </div>
 
-          <p className="demo-credentials">
-            Demo Login:<br />
-            Email: demo@clinicflow.com<br />
-            Password: Password123!
-          </p>
+        
 
           <div className="project-links">
             <a
@@ -60,44 +56,106 @@ export default function Projects() {
               GitHub
             </a>
 
-            <a
-              href="https://clinicflow-frontend-app.onrender.com"
-              target="_blank"
-              rel="noreferrer"
-              className="btn secondary"
-            >
-              Live Demo
-            </a>
           </div>
         </div>
 
         {/* 🥈 Clinic Scheduler API */}
         <div className="project-card">
-          <h3>Clinic Scheduler API – Backend System</h3>
+          <h3>Linux Infrastructure Automation with Ansible</h3>
 
           <p>
-             Backend scheduling system designed to manage appointment workflows and healthcare data operations
-             with a focus on API reliability, validation, and structured error handling.
+            Automated Linux server administration tasks using Ansible and Bash scripting.
+            The project streamlines server provisioning, software installation, user management, backups,
+            and system maintenance to improve operational efficiency and consistency 
           </p>
 
           <p className="project-highlights">
-            • Designed and implemented RESTful API endpoints for scheduling and workflow management <br />
-            • Troubleshot backend issues affecting API performance and data integrity <br />
-            • Implemented validation and centralized error handling to improve system reliability <br />
-            • Structured backend architecture using routes, controllers, and middleware<br />
-            • Tested and validated API functionality using Postman 
+            • Automated Linux server configuration using Ansible playbooks. <br />
+            • Managed users, groups, permissions, and SSH access. <br />
+            • Automated software installation and system updates. <br />
+            • Implemented backup and maintenance workflows.<br />
+            • Reduced manual administration through infrastructure automation.
             
 
           </p>
 
-          <div className="tech-stack">
+          <div className="Technologies">
+            <span>Linux</span>
+            <span>Ansible</span>
+            <span>Bash</span>
+            <span>SSH</span>
+            <span>Cron</span>  
+          </div>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/mbafousu/clinic-scheduler-api"
+              target="_blank"
+              rel="noreferrer"
+              className="btn primary"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        {/* 🥇 ClinicFlow */}
+        <div className="project-card">
+          <img
+            src="/screenshots/dashboard.png"
+            alt="ClinicFlow Dashboard"
+            className="project-image"
+          />
+
+          <h3>ClinicFlow – Healthcare Management System</h3>
+
+          <p>
+           Built a full-stack healthcare management platform to streamline patient records, appointments, visits, and healthcare workflows.
+           Developed secure REST APIs and integrated authentication for efficient healthcare operations.
+          </p>
+
+          <p className="project-highlights">
+            • Developed patient and appointment management modules. <br />
+            • Built secure REST APIs using Node.js and Express. <br />
+            • Implemented JWT authentication and protected routes. <br />
+            • Integrated MongoDB for data storage and retrieval. <br />
+            • Designed a responsive React-based user interface.
+    
+          </p>
+
+          <div className="Technologies">
+            <span>React</span>
             <span>Node.js</span>
             <span>Express</span>
             <span>MongoDB</span>
-            <span>Mongoose</span>
-            <span>REST API</span>
-            <span>Error Handling</span>
-            <span>Postman</span>
+            <span>JWT Authentication</span>
+            <span>REST APIs</span>
+            </div>
+
+        {/* 🥈 movie finder */}
+        <div className="project-card">
+          <h3>Movie Finder</h3>
+
+          <p>
+             Developed a React application that allows users to search movies, view details,
+             and manage favorites using external API integration.
+          </p>
+
+          <p className="project-highlights">
+            • Integrated movie data from external APIs. <br />
+            • Implemented search and filtering functionality. <br />
+            • Managed application state with React Hooks. <br />
+            • Added favorites feature using local storage. <br />
+            • Created responsive user interface components.
+            
+
+          </p>
+
+          <div className="Technologies">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>API Integration</span>
+            <span>CSS</span>
           </div>
 
           <div className="project-links">
