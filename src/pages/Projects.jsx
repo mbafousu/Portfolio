@@ -9,40 +9,47 @@ export default function Projects() {
         {/* AWS */}
         <div className="project-card">
           <img
-            src="/screenshots/dashboard.png"
+            src="/screenshots/dynamodb-table.png"
             alt="AWS Infrastructure Project"
             className="project-image"
           />
 
-          <h3>AWS Serverless User Registration API with Terraform</h3>
+          <h3>ClinicFlow AWS Cloud Platform</h3>
 
           <p>
-           Built and deployed a cloud-native user registration application on AWS using Terraform for Infrastructure as Code (IaC).
-           The project automates infrastructure deployment and provides a scalable serverless backend for user registration and data management.
+           A cloud-native healthcare appointment management platform built on AWS using Terraform and serverless technologies.
+          The application leverages Amazon API Gateway, AWS Lambda, and DynamoDB to manage appointment data, while Amazon S3 and CloudFront provide scalable frontend hosting and content delivery.
+          CloudWatch and SNS were implemented for monitoring, logging, and automated alerting.
           </p>
 
           <p className="project-highlights">
-            • Built and deployed a serverless user registration system on AWS using Terraform. <br />
-            • Created REST APIs with API Gateway and Lambda functions. <br />
-            • Integrated Amazon RDS PostgreSQL for user data management. <br />
-            • Configured CloudFront, S3, IAM, and CloudWatch for secure delivery, monitoring, and logging. <br />
-            • Automated infrastructure provisioning using Infrastructure as Code (Terraform).
+            • Automated AWS infrastructure deployment using Terraform <br />
+            • Serverless REST API for appointment management <br />
+            • DynamoDB-based appointment storage <br />
+            • CloudWatch monitoring and logging <br />
+            • SNS email notifications and alerts <br />
+            • Scalable frontend hosting with S3 and CloudFront <br />
+            • Infrastructure as Code (IaC) implementation.
           </p>
 
           <div className="tech-stack">
             <span>Terraform</span>
             <span>AWS Lambda</span>
-            <span>Amazon RDS PostgreSQL</span>
+            <span>DynamoDB</span>
             <span>Amazon CloudFront</span>
             <span>Amazon S3</span>
             <span>CloudWatch</span>
             <span>AWS IAM</span>
             <span>API Gateway</span>
+            <span>SNS</span>
+            <span>IAM</span>
+            <span>Python</span>
+            <span>React</span>
           </div>
 
           <div className="project-links">
             <a
-              href="https://github.com/mbafousu/ClinicFlow"
+              href="https://github.com/mbafousu/ClinicFlow-AWS-Cloud-Platform"
               target="_blank"
               rel="noreferrer"
               className="btn primary"
@@ -151,33 +158,40 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Movie Finder */}
+        {/* BOOKING PORTAL */}
         <div className="project-card">
-          <h3>Movie Finder</h3>
+          <img
+            src="/screenshots/booking-portal.png"
+            alt="ClinicFlow Online Booking Portal"
+            className="project-image"
+          />
+          <h3>ClinicFlow Online Booking Portal</h3>
 
           <p>
-            Developed a React application that allows users to search movies,
-            view details, and manage favorites using external API integration.
+            A healthcare appointment booking application built with React that allows patients to schedule, view, and manage appointments through an intuitive user interface.
+            The application provides appointment management functionality and demonstrates modern frontend development practices
           </p>
 
           <p className="project-highlights">
-            • Integrated movie data from external APIs. <br />
-            • Implemented search and filtering functionality. <br />
-            • Managed application state with React Hooks. <br />
-            • Added favorites feature using local storage. <br />
-            • Created responsive user interface components.
+            • Appointment scheduling and management <br />
+            • Patient-friendly booking interface <br />
+            • Dynamic data rendering <br />
+            • Responsive design <br />
+            • Component-based architecture <br />
+            • API integration for appointment data
           </p>
 
           <div className="tech-stack">
             <span>React</span>
             <span>JavaScript</span>
-            <span>API Integration</span>
+            <span>REST API</span>
             <span>CSS</span>
+            <span>Vite</span>
           </div>
 
           <div className="project-links">
             <a
-              href="https://github.com/mbafousu/Movie_Finder"
+              href="https://github.com/mbafousu/clinicflow-booking-portal"
               target="_blank"
               rel="noreferrer"
               className="btn primary"
